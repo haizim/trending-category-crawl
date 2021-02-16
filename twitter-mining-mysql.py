@@ -12,10 +12,10 @@ import csv
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="haizim",
-  password="esdfgh",
-  database="tagarakc_mining"
+  host=[host],
+  user=[user],
+  password=[pass],
+  database=[db_name]
 )
 
 print "---------------------------------------------"
